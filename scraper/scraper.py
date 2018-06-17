@@ -29,8 +29,6 @@ for index, username in enumerate(usernames):
     pictures = list(filter(lambda p: p.find('span',
                                             class_='coreSpriteVideoIconLarge') is None, posts))
 
-    print(len(pictures))
-
     thumbnails = list(map(lambda p: p.find_all('img',
                                                class_="FFVAD", limit=1)[0]["src"], pictures))
 
