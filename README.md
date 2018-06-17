@@ -1,6 +1,6 @@
 <div align = "center">
 
-<img src = "https://i.imgur.com/35GvM7j.png" with="300" height="300"/>
+<img src = "https://i.imgur.com/35GvM7j.png" with="400" height="400"/>
 
 </div>
 
