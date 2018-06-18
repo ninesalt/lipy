@@ -105,3 +105,4 @@ venv.bak/
 test.py
 todo.txt
 download/
+uploads/

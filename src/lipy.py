@@ -1,6 +1,6 @@
-from features import downloadimages, getlikes
-from keras.models import Sequential
 from keras.layers import Conv2D, Activation, MaxPool2D, Flatten, Dense, Dropout
+from keras.models import Sequential
+from features import downloadimages, getlikes
 import numpy as np
 import cv2
 import glob
