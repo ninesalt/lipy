@@ -40,8 +40,7 @@ def predict():
 
     # cleanup and return result
     cleanup(filepaths)
-    print('result : ', result)
-    return jsonify(result)
+    return jsonify({'prediction': result.tolist()})
 
 
 if __name__ == '__main__':
