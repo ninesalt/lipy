@@ -1,4 +1,4 @@
-opencv_python==3.4.1.15
+opencv_python==3.4.7.28
 tensorflow==1.8.0
 Keras==2.2.0
 selenium==3.12.0
